@@ -1,9 +1,14 @@
 /*
-  A Class Should have only 1 reason to change.
+    A Class Should have only 1 reason to change.
 
-  Marker Entity:
+    SRP says:
+        A class, module, or function should have only one reason to change.
+        In other words, each class should handle only one responsibility or concern — and that concern should be fully encapsulated within it.
 
 */
+
+#include <iostream>
+using namespace std;
 
 class Marker {
     private:

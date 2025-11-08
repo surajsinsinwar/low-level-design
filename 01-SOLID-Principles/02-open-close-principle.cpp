@@ -2,6 +2,9 @@
     Open for Extension, Closed for Modification Principle
     -----------------------------------------------------------------------
 
+    OCP is mainly useful when:
+        You have a piece of logic that depends on a set of options or behaviors
+        ...and you expect that list to change or grow in the future.
 
 */
 

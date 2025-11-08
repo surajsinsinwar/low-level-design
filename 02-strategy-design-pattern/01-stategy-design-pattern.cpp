@@ -4,9 +4,16 @@
     Basically, it's a way to support open/closed principle or duplicate logic by encapsulating behavior that can vary.
 
     Defination:
+        The Strategy Design Principle (often called the Strategy Design Pattern) is about defining a family of algorithms, encapsulating each one, and making them interchangeable —
+        so the behavior of an object can be changed at runtime without modifying its code.
+
+        
         Strategy Pattern exists to remove duplicated behavior from child classes and avoid forcing behavior into the parent class.
         It encapsulates that behavior into separate "strategy" classes so that behavior can vary independently.
 */
+
+#include <iostream>
+using namespace std;
 
 class Animal {
 public:
