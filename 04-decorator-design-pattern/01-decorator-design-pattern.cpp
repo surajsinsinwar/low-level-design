@@ -26,14 +26,14 @@ using namespace std;
 
 class Beverage {
 public:
-    virtual string getDescription() const = 0;
-    virtual double cost() const = 0;
+    virtual string getDescription() = 0;
+    virtual double cost() = 0;
 };
 
 class Espresso : public Beverage {
 public:
-    string getDescription() const override { return "Espresso"; }
-    double cost() const override { return 1.99; }
+    string getDescription() override { return "Espresso"; }
+    double cost() override { return 1.99; }
 };
 
 /*

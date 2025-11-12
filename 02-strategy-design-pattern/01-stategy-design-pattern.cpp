@@ -1,4 +1,9 @@
 /*
+    The Strategy Design Pattern is about defining a family of algorithms, encapsulating each one, and making them interchangeable 
+    — so the behavior of an object can be changed at runtime without modifying its code.
+
+
+
     Strategy Pattern helps remove interdependency between child classes by extracting shared behavior into separate strategy interfaces.
 
     Basically, it's a way to support open/closed principle or duplicate logic by encapsulating behavior that can vary.
