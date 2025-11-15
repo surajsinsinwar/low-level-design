@@ -17,6 +17,35 @@ If we allow multiple instances, it can lead to:
     synchronization issues
 
 So, Singleton pattern makes sure only one instance is ever created.
+Basically “A class that has its own object stored privately inside itself,
+and only that object can be used to access its methods and variables,
+either from within the class or by other classes that use it.”
+
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
++-----------------------------------+
+|            Singleton              |
++-----------------------------------+
+| - instance : Singleton [static]   |   ← static attribute holding the one instance
+| - Singleton() [private]           |   ← private constructor (no external instantiation)
++-----------------------------------+
+| + getInstance() : Singleton       |   ← static method returning the single instance
+| + someServiceMethod() : void      |
++-----------------------------------+
+
+           ▲
+           |
+           |
+     uses  |
+           |
++-----------------------------------+
+|            Client                 |
++-----------------------------------+
+| + main() : void                   |
++-----------------------------------+
+
 
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -27,10 +56,6 @@ We do three main things:
     1. Make the constructor private — prevents external instantiation.
     2. Create a static instance inside the class — single shared instance.
     3. Provide a static method (usually getInstance()) to return that instance.
-
-
--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
 
 | Scenario                     | Why Singleton fits                                                             |
 | ---------------------------- | ------------------------------------------------------------------------------ |
