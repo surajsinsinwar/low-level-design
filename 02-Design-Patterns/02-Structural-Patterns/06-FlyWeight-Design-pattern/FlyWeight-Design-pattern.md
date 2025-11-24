@@ -10,6 +10,9 @@ It is especially useful when an application needs to create a large number of si
         Extrinsic State → passed from outside (context-specific data).
 
 
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
 | # | Use Case               | Description                              | Example                                                        |
 | - | ---------------------- | ---------------------------------------- | -------------------------------------------------------------- |
 | 1 | Text Rendering         | Many characters share the same font data | Each letter object shares font & style, only position differs  |
@@ -20,6 +23,8 @@ It is especially useful when an application needs to create a large number of si
 | 6 | Network Systems        | Reused connection configurations         | Reusing sockets or connection pools with shared configuration  |
 | 7 | Data Caching           | Repeated data structures                 | Cache reusable immutable data objects instead of duplicating   |
 
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
 Imagine a game that renders 100,000 trees.
