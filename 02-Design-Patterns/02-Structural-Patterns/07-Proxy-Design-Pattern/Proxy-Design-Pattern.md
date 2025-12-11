@@ -61,3 +61,4 @@ A proxy acts as a gatekeeper — it can:
     Proxy checks if realImage exists.
     If not → loads it from disk.
     Then calls realImage.display().
+    
