@@ -6,6 +6,15 @@
         You have a piece of logic that depends on a set of options or behaviors
         ...and you expect that list to change or grow in the future.
 
+    How you achieve that is flexible.
+    Common techniques:
+        Interfaces / Abstract classes
+        Strategy pattern
+        Polymorphism
+        Composition
+        Plugins / dependency injection
+        Interfaces are one way, not the only way.
+
 */
 
 class Invoice {
