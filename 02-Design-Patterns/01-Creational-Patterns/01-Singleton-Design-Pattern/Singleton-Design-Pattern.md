@@ -3,6 +3,9 @@
 Definition:
     The Singleton Pattern ensures that only one instance of a class exists throughout the program, and provides a global point of access to that instance.
 
+The goal is:
+1️⃣ Only one object of the class should ever exist
+2️⃣ Everyone in the program should access that same object
 
 Some classes logically should have only one instance in a system.
 Examples:
