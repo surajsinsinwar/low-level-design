@@ -60,3 +60,14 @@ class MacBook {
     This violates Dependency Inversion Principle.
     To adhere to DIP, MacBook should depend on Mouse and Keyboard interfaces instead.
 */
+
+class MacBook {
+    private:
+        Mouse* mouse;
+        Keyboard* keyboard;
+    public:
+        MacBook(Mouse* mouse,  Keyboard* keyboard) {
+            this->mouse = mouse;
+            this->keyboard = keyboard;
+        }
+};

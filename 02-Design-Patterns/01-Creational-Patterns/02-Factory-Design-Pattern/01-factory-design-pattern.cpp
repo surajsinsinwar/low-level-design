@@ -1,12 +1,3 @@
-/*
-    The Factory Pattern is used to create objects without exposing the creation logic to the client.
-    Instead of directly calling new on a class, you delegate the object creation to a factory class or method.
-
-    🧩 Why we use it
-        Without factory:
-        The client (main function or other code) needs to know which class to instantiate.
-        If new classes are added later, you must change the client code — which violates Open-Closed Principle (OCP).
-*/
 
 /*
 
@@ -61,6 +52,7 @@ int main() {
     delete payment;
 }
 
+/*-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
 
 /*
     ✅ Works fine for now.
@@ -139,6 +131,8 @@ int main() {
 
     🔹 Step 3: Eliminating if/else and Fully Hiding Implementation
 */
+
+/*-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
 
 #include <iostream>
 #include <string>

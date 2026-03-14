@@ -1,5 +1,5 @@
 /*
-🚗 Example: Building a Car Object (Real Builder Use Case)
+🚗 Example: Building a Car Object
 
 🧩 Before Scenario — The Problem
 

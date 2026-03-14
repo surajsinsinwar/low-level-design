@@ -18,3 +18,8 @@ Difference between Builder and Decorator pattern
 | ------------- | ---------------------------------------------------- | ------------------------------------------------------------------------- | ------------------------------------------- |
 | **Builder**   | Encapsulate *object construction* logic and steps    | **has-a** (builder *has* the product being built)                         | Controlled by *system / director*           |
 | **Decorator** | Dynamically *extend or modify behavior* of an object | **is-a** and **has-a** (decorator *is a* base type and *has a* base type) | Controlled by *client / user*               |
+
+Core Difference
+Pattern             Focus
+Factory             Method	Which object to create
+Builder	            How to construct the object step-by-step
